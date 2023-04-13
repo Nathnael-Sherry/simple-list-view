@@ -10,16 +10,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        var listview = findViewById<ListView>(R.id.my_list)
-        var list_data:Array<String> = arrayOf("FULIZA", "SEND MONEY", "KCB MPESA")
 
-//        SET AN ADAPTER
-        var data_adapter: ArrayAdapter<String> = ArrayAdapter(
-
-            android.R.layout.simple_list_item_1, list_data
-
-        )
-        listview.adapter = data_adapter
 
     }
+
 }

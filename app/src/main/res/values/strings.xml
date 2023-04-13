@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Nate-SimpleListView</string>
+    <string-array name="services">
+        <item>FULIZA</item>
+        <item>KCB MPESA</item>
+        <item>OKOA JAHAZI</item>
+        <item>SEND MONEY</item>
+        <item>SEND TOKENS</item>
+        <item>HUSTLER FUNDS</item>
+    </string-array>
 </resources>
